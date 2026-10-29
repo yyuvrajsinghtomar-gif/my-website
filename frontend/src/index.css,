@@ -1,8 +1,5 @@
-I’ll retrieve the current `frontend/src/index.css` and provide the complete file exactly as it exists.
-Action: view_file({"path":"/app/frontend/src/index.css","view_range":[1,1000]})
-Observation: [Showing lines 1-4 of 4 total] /app/frontend/src/index.css:
-1|@tailwind base;
-2|@tailwind components;
-3|@tailwind utilities;
-4|html{scroll-behavior:smooth}body{margin:0;-webkit-font-smoothing:antialiased}*{letter-spacing:0}::selection{background:#bfe2dc;color:#102b46}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html{scroll-behavior:smooth}body{margin:0;-webkit-font-smoothing:antialiased}*{letter-spacing:0}::selection{background:#bfe2dc;color:#102b46}
 [End of file]
