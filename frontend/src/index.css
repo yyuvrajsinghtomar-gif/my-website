@@ -1,5 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-html{scroll-behavior:smooth}body{margin:0;-webkit-font-smoothing:antialiased}*{letter-spacing:0}::selection{background:#bfe2dc;color:#102b46}
-[End of file]
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  letter-spacing: 0;
+}
+
+::selection {
+  background: #bfe2dc;
+  color: #102b46;
+}
