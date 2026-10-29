@@ -84,7 +84,7 @@ class SavedScheme(Base):
 Base.metadata.create_all(engine)
 
 app = FastAPI(title="SchemeSaathi API", version="1.0.0")
-app.add_middleware(CORSMiddleware, allow_origins=["http://localhost:3000", "https://eligibility-finder-16.preview.emergentagent.com"], allow_credentials=True, allow_methods=["*"], allow_headers=["*"])
+app.add_middleware(CORSMiddleware, allow_origins=["http://localhost:3000", "https://eligibility-finder-16.preview.emergentagent.com", "https://my-website-1-8hrs.onrender.com"], allow_credentials=True, allow_methods=["*"], allow_headers=["*"])
 FAILED_LOGINS = {}
 
 
