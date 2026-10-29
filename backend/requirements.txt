@@ -7,3 +7,7 @@ pyjwt
 python-dotenv
 pydantic
 email-validator
+
+
+
+
